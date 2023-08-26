@@ -22,14 +22,8 @@ def demo():
         submitted = st.form_submit_button("Запустить")
 
     if submitted:
-        work = False
-        try:
-            _ = image.name
-            work = True
-        except:
-            ...
 
-        if not work:
+        if False:
             st.error('Вам необходимо выбрать изображение!', icon="🚨")
 
         else:
