@@ -24,7 +24,7 @@ def demo():
     if submitted:
         work = False
         try:
-            image.read()
+            _ = image.name
             work = True
         except:
             ...
